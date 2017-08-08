@@ -45,8 +45,8 @@ TARGET_NO_KERNEL := true
 #BOARD_SYSTEMIMAGE_PARTITION_SIZE :=  550000000
 #BOARD_USERDATAIMAGE_PARTITION_SIZE := 2000
 
-## overwrite wlan device variable to activate wifi-hal stub library
-#BOARD_WLAN_DEVICE := none
+# overwrite wlan device variable to activate wifi-hal stub library
+BOARD_WLAN_DEVICE := none
 
 # do not build hw dependent wpa_supplicant libs (we have our proxy instead)
 BOARD_WPA_SUPPLICANT_DRIVER :=
